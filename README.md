@@ -1,1 +1,2 @@
-# TCP-IP-server
+A multi-threaded server for TCP/IP communication to manage the automatic control of remote robots. 
+Robots log in to the server, which guides them towards the center of a coordinate system. Each robot starts from random coordinates and aims to reach the coordinate [0,0]. Upon reaching the destination coordinate, the robot retrieves a secret. While navigating to the goal, robots may encounter obstacles that they must avoid. The server is capable of guiding multiple robots simultaneously and implements a reliable communication protocol. The client-side implementation is provided by the testing environment.
